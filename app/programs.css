@@ -1,0 +1,61 @@
+.programs{
+    margin-top: -80px;
+    margin-left: 0px;
+    background-color: rgb(0, 0, 0);
+    height: 50rem;
+}
+
+.programs>h1{
+    color: white;
+    font-size: 63px;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+}
+.progimg {
+    display: flex;
+    justify-content: space-between; /* Distribute space between the images */
+    align-items: center; /* Vertically center the images */
+    padding: 0 30px; 
+    cursor: pointer;/* Add equal margin at both ends */
+    margin-top: 40px;
+  }
+  
+  .progimg > div {
+    flex: 0 0 calc(25% - 20px); /* Adjust the width and margin between images */
+  }
+  
+  .grad{
+    position: absolute;
+    top: 1600px;
+  }
+
+.embtn{
+    
+    background-color: transparent; 
+        border: 2px solid orange; 
+        color: orange; 
+        padding: 10px 20px; 
+        font-size: 19px; 
+        cursor: pointer; 
+        font-weight: bold;
+        border-radius: 5px; 
+        text-align: center; 
+        text-decoration: none;
+        transition: 0.3s;
+        position: absolute;
+        top: 1800px;
+        left: 1160px;
+      }
+      
+      .embtn:hover{
+        background-color: orange; 
+        color: white;
+      }
+    
+    .productimg{
+        transition: 0.3s
+    }
+
+    .productimg:hover{
+        transform: scale(1.1);
+    }

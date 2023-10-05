@@ -1,0 +1,59 @@
+/* NavBar.module.css */
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 102, 0, 0.856);
+  
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+
+.center {
+  display: flex;
+}
+
+.center a {
+  text-decoration: none;
+  color: white;
+  margin: 0 26px;
+  transition: 0.3s;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.center>a:hover {
+  color: orange;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+
+  background-color: transparent; 
+  border: 2px solid orange; 
+  color: orange; 
+  padding: 10px 20px; 
+  font-size: 19px; 
+  cursor: pointer; 
+  font-weight: bold;
+  border-radius: 5px; 
+  text-align: center; 
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.button:hover{
+  background-color: orange; 
+  color: white;
+}

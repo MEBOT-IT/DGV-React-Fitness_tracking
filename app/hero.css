@@ -1,0 +1,181 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styles.module.css */
+
+
+.fragment-of-saturn5 {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 1436px;
+    height: 719px;
+    overflow: hidden;
+  }
+  .dont-just-dream1 {
+    margin: 0;
+  }
+  .dont-just-dream-container1 {
+    margin: 0;
+    position: absolute;
+    top: 25px;
+    left: 1px;
+    font-size: 55px;
+    letter-spacing: 0.02em;
+    line-height: 90px;
+    font-weight: 600;
+    font-family: inherit;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .welcome-to-fitnessfirst1 {
+    margin: 0;
+    position: absolute;
+    top: 224px;
+    left: 0;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .workout-programs3 {
+    margin: 0;
+    font-size: var(--h5-d-bold-size);
+  }
+  .workout-programs2 {
+    position: absolute;
+    top: 16px;
+    left: 15px;
+  }
+  .rectangle-div {
+    background-color: var(--color-gainsboro);
+    border: 6px solid var(--cart-system-white);
+    box-sizing: border-box;
+  }
+  .rectangle-div,
+  .workout-programs-group {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 251px;
+    height: 107px;
+  }
+  .m-fitness-freaks-container1 {
+    position: absolute;
+    top: 18px;
+    left: 15px;
+  }
+  .rectangle-container {
+    position: absolute;
+    top: 0;
+    left: 312px;
+    width: 251px;
+    height: 107px;
+  }
+  .connect-with-your-container1 {
+    position: absolute;
+    top: 18px;
+    left: 21px;
+    
+  }
+  .group-container,
+  .group-div {
+    position: absolute;
+    top: 0;
+    left: 624px;
+    width: 251px;
+    height: 107px;
+  }
+  .group-container {
+    top: 312px;
+    left: 1px;
+    width: 875px;
+    overflow: hidden;
+  }
+  .hero-image-1-icon1 {
+    position: absolute;
+    top: 15px;
+    left: 1022px;
+    width: 316px;
+    height: 480px;
+    object-fit: cover;
+  }
+  .get-started1 {
+    position: relative;
+    font-size: var(--font-size-13xl);
+    font-weight: 600;
+    font-family: var(--font-inter);
+    color: var(--color-orange);
+    text-align: left;
+  }
+
+  .hero1 {
+    position: relative;
+    width: 100%;
+    height: 549px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--cart-system-white);
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 1200px) {
+    .button1 {
+      opacity: 1;
+    }
+    .button1.animate {
+      animation: 3s ease 1s 1 normal forwards scale-up;
+    }
+    @keyframes scale-up {
+      0% {
+        transform: scale(0.5);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+    .button1:hover {
+      cursor: pointer;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    .button1:hover {
+      cursor: pointer;
+      animation: 3s ease 1s infinite normal none scale-up;
+      opacity: 1;
+    }
+    @keyframes scale-up {
+      0% {
+        transform: scale(0.5);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+  }
+
+  .button {
+
+    background-color: transparent; 
+    border: 2px solid orange; 
+    color: orange; 
+    padding: 10px 20px; 
+    font-size: 19px; 
+    cursor: pointer; 
+    font-weight: bold;
+    border-radius: 5px; 
+    text-align: center; 
+    text-decoration: none;
+    transition: 0.3s;
+    position: absolute;
+    top: 480px;
+    left: 39px;
+  }
+  
+  .button:hover{
+    background-color: orange; 
+    color: white;
+  }
+
+.background-container{
+  background-color: rgb(0, 0, 0);
+}

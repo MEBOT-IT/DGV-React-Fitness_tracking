@@ -1,0 +1,30 @@
+/* Start Bootstrap carousel */
+.itemP {
+    height: 44rem;
+    background-color: black;
+  }
+  .itemP > img {
+    width: 87%;
+    object-fit: fill;
+    height: 40rem;
+    align-self: center;
+  }
+  
+  .caption {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+  }
+  
+  .caption h3 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+  }
+  /* End Bootstrap carousel */
+  .slider{
+    margin-top: 1399px;
+    background-color: black;
+  }
+ .slider>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+ }

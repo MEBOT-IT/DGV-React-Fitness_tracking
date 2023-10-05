@@ -1,0 +1,53 @@
+/* styles.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Center content vertically on the page */
+    background-color: #f0f0f0; /* Background color for the entire container */
+  }
+  
+  .title {
+    font-size: 36px; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: white; /* White text color */
+    text-align: center;
+  }
+  
+  .search-bar {
+    margin-top: 20px; /* Add spacing between the title and search bar */
+    display: flex;
+    align-items: center;
+    margin-left: 26rem;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 3px solid orange; /* Orange border */
+    width: 399px;
+    background-color: transparent;
+    height: 30px;
+    box-shadow:  0 0 5px rgb(255, 123, 0); /* Box shadow with an orange color */
+    font-size: large;
+    color: orange;
+    outline: none; /* Remove default input outline */
+  }
+  
+  .search-button {
+    /* margin-left: 10px; Add spacing between the input and button */
+    padding: 10px 20px;
+    background-color: orange; /* Orange button background color */
+    border: none;
+    height: 56px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: darkorange; /* Change button color on hover */
+  }
+  

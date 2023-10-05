@@ -1,0 +1,87 @@
+.fragment-of-saturn5 {
+    position: absolute;
+    top: 154px;
+    left: 374px;
+    width: 1157px;
+    height: 651px;
+    overflow: hidden;
+  }
+  .our-blogs1 {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: inherit;
+    font-weight: 399px;
+    font-family: var(--h2);
+  }
+  .sven-mieke-lx-gdv7va9m-unsplas-icon1 {
+    position: absolute;
+    top: 139px;
+    left: 16px;
+    width: 689px;
+    height: 467px;
+    object-fit: cover;
+  }
+  .empowering-women-unveiling1 {
+    margin: 0;
+  }
+  .empowering-women-unveiling-container1 {
+    margin: 0;
+    position: absolute;
+    top: 146px;
+    left: 729px;
+    font-size: var(--font-size-13xl);
+    font-weight: 800;
+    font-family: inherit;
+    display: inline-block;
+    width: 555px;
+    height: 120px;
+  }
+  .in-todays-fast-paced1 {
+    margin: 0;
+    position: absolute;
+    top: 300px;
+    left: 729px;
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    text-align: justify;
+    display: inline-block;
+    width: 507px;
+    line-height: 26px;
+  }
+  .blogs1 {
+    width: 1360px;
+    height: 805px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--h2-size);
+    color: var(--cart-system-white);
+    font-family: var(--font-inter);
+    position: absolute;
+    top: 2800px;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .rm{
+    background-color: transparent; 
+    border: 2px solid orange; 
+    color: orange; 
+    padding: 10px 20px; 
+    font-size: 19px; 
+    cursor: pointer; 
+    font-weight: bold;
+    border-radius: 5px; 
+    text-align: center; 
+    text-decoration: none;
+    transition: 0.3s;
+    position: absolute;
+    top: 550px;
+    left: 730px;
+  }
+
+  .rm:hover{
+    background-color: orange; 
+    color: white;
+  }

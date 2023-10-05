@@ -1,0 +1,28 @@
+/* styles/Dashboard.css */
+
+.dashboard-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .left-section {
+    flex: 1;
+    padding: 0px;
+    /* Add additional styles for the left section, including the vertical navigation bar */
+  }
+  
+  .center-section {
+    flex: 2;
+    background-color: #000000;
+     margin-right: 0;
+    /* Add additional styles for the center section */
+  }
+  
+  .right-section {
+    flex: 1;
+    background-color: #000000;
+    
+    /* Add additional styles for the right section */
+  }
+  

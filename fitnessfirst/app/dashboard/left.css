@@ -1,0 +1,65 @@
+/* styles/LeftSection.css */
+
+.left-section {
+    height: 100vh; /* Full viewport height */
+    width: 100px; /* Set width to 100px */
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid orange;
+  }
+  
+  
+  .left-section {
+    height: 100vh;
+    width: 100px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid orange;
+  }
+  
+  .top-image img {
+    max-width: 100%;
+    max-height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .vertical-nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .vertical-nav li {
+    margin-bottom: 10px; /* Add space between list items */
+  }
+  
+  .vertical-nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+  }
+  
+  .vertical-nav a:hover {
+    color: orange;
+  }
+  .vertical-nav li {
+    margin-bottom: 10px; /* Add space between list items */
+    position: relative; /* Enable relative positioning for the li element */
+  }
+  
+  .vertical-nav li::after {
+    content: ''; /* Add an empty content */
+    position: absolute;
+    bottom: -5px; /* Adjust the position of the line as needed */
+    left: -99px;
+    width: 260%; /* Cover full width of the left section */
+    height: 1px; /* Adjust the line height as needed */
+    background-color: orange; /* Color of the line */
+  }
